@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62BC5C9525C8E6FC00B054EB /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC5C9425C8E6FC00B054EB /* Entry.swift */; };
+		62BC5C9825C8EF0900B054EB /* EntryContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC5C9725C8EF0900B054EB /* EntryContoller.swift */; };
+		62BC5C9B25C8F01C00B054EB /* EntryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC5C9A25C8F01C00B054EB /* EntryError.swift */; };
+		62BC5C9F25C8F6E900B054EB /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC5C9E25C8F6E900B054EB /* EntryDetailViewController.swift */; };
+		62BC5CA225C8F6F400B054EB /* EntryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC5CA125C8F6F400B054EB /* EntryListTableViewController.swift */; };
+		62BC5CA525C8FA0F00B054EB /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC5CA425C8FA0F00B054EB /* DateFormatter.swift */; };
 		85858B84242D081200C5ECA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85858B83242D081200C5ECA2 /* AppDelegate.swift */; };
 		85858B86242D081200C5ECA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85858B85242D081200C5ECA2 /* SceneDelegate.swift */; };
 		85858B8B242D081200C5ECA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85858B89242D081200C5ECA2 /* Main.storyboard */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62BC5C9425C8E6FC00B054EB /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		62BC5C9725C8EF0900B054EB /* EntryContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryContoller.swift; sourceTree = "<group>"; };
+		62BC5C9A25C8F01C00B054EB /* EntryError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryError.swift; sourceTree = "<group>"; };
+		62BC5C9E25C8F6E900B054EB /* EntryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailViewController.swift; sourceTree = "<group>"; };
+		62BC5CA125C8F6F400B054EB /* EntryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryListTableViewController.swift; sourceTree = "<group>"; };
+		62BC5CA425C8FA0F00B054EB /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		85858B80242D081200C5ECA2 /* CloudKitJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudKitJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85858B83242D081200C5ECA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85858B85242D081200C5ECA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,7 +73,13 @@
 			children = (
 				85858B9D242D0A8B00C5ECA2 /* CloudKitJournal.entitlements */,
 				85858B89242D081200C5ECA2 /* Main.storyboard */,
+				62BC5C9425C8E6FC00B054EB /* Entry.swift */,
+				62BC5C9725C8EF0900B054EB /* EntryContoller.swift */,
+				62BC5C9A25C8F01C00B054EB /* EntryError.swift */,
 				85858B97242D082D00C5ECA2 /* Resources */,
+				62BC5C9E25C8F6E900B054EB /* EntryDetailViewController.swift */,
+				62BC5CA125C8F6F400B054EB /* EntryListTableViewController.swift */,
+				62BC5CA425C8FA0F00B054EB /* DateFormatter.swift */,
 			);
 			path = CloudKitJournal;
 			sourceTree = "<group>";
@@ -113,7 +131,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Zebadiah Watson";
 				TargetAttributes = {
 					85858B7F242D081200C5ECA2 = {
@@ -157,8 +175,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62BC5CA525C8FA0F00B054EB /* DateFormatter.swift in Sources */,
+				62BC5C9525C8E6FC00B054EB /* Entry.swift in Sources */,
+				62BC5C9B25C8F01C00B054EB /* EntryError.swift in Sources */,
 				85858B84242D081200C5ECA2 /* AppDelegate.swift in Sources */,
+				62BC5CA225C8F6F400B054EB /* EntryListTableViewController.swift in Sources */,
 				85858B86242D081200C5ECA2 /* SceneDelegate.swift in Sources */,
+				62BC5C9F25C8F6E900B054EB /* EntryDetailViewController.swift in Sources */,
+				62BC5C9825C8EF0900B054EB /* EntryContoller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +234,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -270,6 +295,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -304,13 +330,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CloudKitJournal/CloudKitJournal.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4J7B9732LY;
+				DEVELOPMENT_TEAM = QYHXM7HJ4V;
 				INFOPLIST_FILE = "$(SRCROOT)/CloudKitJournal/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CloudKitJournal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BenjaminTincher.JournalCK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,13 +349,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CloudKitJournal/CloudKitJournal.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4J7B9732LY;
+				DEVELOPMENT_TEAM = QYHXM7HJ4V;
 				INFOPLIST_FILE = "$(SRCROOT)/CloudKitJournal/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CloudKitJournal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BenjaminTincher.JournalCK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
